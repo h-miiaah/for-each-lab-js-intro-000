@@ -3,3 +3,9 @@ function iterativeLog(array){
       console.log(`${index}: ${element}`)
     });
 }
+
+function iterate(callback){
+  var animals = ["dog", "cat", "bird"];
+  animals.forEach(callback);
+  return animals;
+}
